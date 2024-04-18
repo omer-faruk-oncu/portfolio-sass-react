@@ -11,15 +11,17 @@ import NotFound from "./components/Error/NotFound";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-      <Footer />
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 }

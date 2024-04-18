@@ -84,8 +84,8 @@ const About = () => {
           </div>
         </main>
         {/* ABOUT FOOTER */}
-        {/* <footer className="vertical">
-          <div className="social-icons">
+        <footer className="vertical">
+          {/* <div className="social-icons">
             <a href="#">
               <i className="fab fa-twitter fa-2x" />
             </a>
@@ -99,8 +99,8 @@ const About = () => {
               <i className="fab fa-github fa-2x" />
             </a>
           </div>
-          <div className="copyright">© Copyright 2023</div>
-        </footer> */}
+          <div className="copyright">© Copyright 2023</div> */}
+        </footer>
       </>
     </div>
   );
